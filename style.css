@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #ffffff;
+}
+main {
+  width: 500px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first > i {
+  margin: 2px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  background-color: #f87171;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.spann1 > i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.spann,
+.spann1 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.container > .first {
+  height: 70px;
+  padding: 20px;
+}
+.second > .first {
+  padding: 20px;
+  cursor: pointer;
+
+  height: 60px;
+}
+p {
+  font-weight: bold;
+  font-size: 15px;
+}
+.special {
+  background-color: #483fe0;
+  color: white;
+}
+.gray {
+  background-color: rgb(238, 238, 238);
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  gap: 4px;
+}
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.btn1 {
+  border: 1px solid white;
+  background-color: transparent;
+  color: gray;
+}
+.btn1:hover {
+  border: 1px solid;
+}
+.btn2 {
+  box-shadow: rgb(3, 26, 48) 1px 1px 0px 1px;
+  background-color: #483fe0;
+  color: white;
+  border: none;
+}
